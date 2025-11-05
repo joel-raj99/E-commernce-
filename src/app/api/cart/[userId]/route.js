@@ -4,7 +4,7 @@ import Cart from "@/app/models/cartModel";
 export async function GET(req, { params }) {
   try {
     await connectDB();
-    const { userId } = await params; // ✅ FIXED HERE
+    const { userId } = await params; 
 
     const cart = await Cart.findOne({ userId }).populate("items.productId");
 
