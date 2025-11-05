@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "4ec8cdda-9a36-4db4-8086-b2c71532e6fd",
+		"name": "e-comm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28587572"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"email\": \"admin@gmail.com\",\r\n  \"password\": \"Admin@123\",\r\n  \"role\": \"admin\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/Signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"Signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@gmail.com\",\r\n  \"password\": \"Admin@123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Length",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/Logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"Logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mercy Bonus Mixer Grinder",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "2499",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Powerful 750W mixer grinder for wet and dry grinding",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "Home Appliances",
+							"type": "text"
+						},
+						{
+							"key": "quantity",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "power",
+							"value": "750W",
+							"type": "text"
+						},
+						{
+							"key": "usage",
+							"value": "Wet & Dry Grinding",
+							"type": "text"
+						},
+						{
+							"key": "numberOfSpeeds",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "isiCertified",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "warranty",
+							"value": "1 year",
+							"type": "text"
+						},
+						{
+							"key": "uses",
+							"value": "Domestic",
+							"type": "text"
+						},
+						{
+							"key": "bodyMaterial",
+							"value": "Plastic",
+							"type": "text"
+						},
+						{
+							"key": "numberOfBlades",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "countryOfOrigin",
+							"value": "Made in India",
+							"type": "text"
+						},
+						{
+							"key": "voltage",
+							"value": "240V",
+							"type": "text"
+						},
+						{
+							"key": "frequency",
+							"value": "50Hz",
+							"type": "text"
+						},
+						{
+							"key": "brandName",
+							"value": "Mercy",
+							"type": "text"
+						},
+						{
+							"key": "modelName",
+							"value": "Bonus ",
+							"type": "text"
+						},
+						{
+							"key": "material",
+							"value": "ABS Plastic & Stainless Steel",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"postman-cloud:///1ef5dfe3-c721-4300-9dcc-86a1756266f1",
+								"postman-cloud:///1ef65ca2-6f1b-4a70-a6d4-216dc156ec34",
+								"postman-cloud:///1ef70d54-218e-4f10-b6b4-6b324bd245fa",
+								"postman-cloud:///1ef70d53-fd91-4130-a5bc-d1110ebabeb6",
+								"postman-cloud:///1efa19ed-960f-4710-a036-976af05c1b06",
+								"postman-cloud:///1f08c87e-a0ea-4fb0-9a6d-fdc648e993ba"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"6909a72ac1c250162a23ee70\",\r\n  \"productId\": \"690994dac1c250162a23ee6a\",\r\n  \"quantity\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cart by user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"6909a72ac1c250162a23ee70\",\r\n  \"productId\": \"690994dac1c250162a23ee6a\",\r\n  \"quantity\": 2\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/cart/6909a72ac1c250162a23ee70",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"cart",
+						"6909a72ac1c250162a23ee70"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"6909a72ac1c250162a23ee70\",\r\n  \"address\": \"123 Green Avenue, Chennai, Tamil Nadu\",\r\n  \"paymentMethod\": \"Credit Card\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "userprofile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"6909a72ac1c250162a23ee70\",\r\n  \"firstName\": \"Joel paulin \",\r\n  \"lastName\": \"raj\",\r\n  \"address\": \"123 Main St\",\r\n  \"city\": \"New York\",\r\n  \"state\": \"NY\",\r\n  \"zipCode\": \"10001\",\r\n  \"email\": \"joelpaulin@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"secondaryphone\": \"8765432109\",\r\n  \"landmark\": \"Near Central Park\"\r\n}\r\n\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/auth/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"auth",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
