@@ -1,10 +1,8 @@
-import User from "@/app/models/UserModels"; // ✅ Important import
+// ✅ Important import
 import Profile from "@/app/models/profileModel";
 import connectDB from "@/app/lib/db";
 import { NextResponse } from "next/server";
 
-
-// ✅ Create Profile (POST)
 export async function POST(req) {
   try {
     await connectDB();

@@ -23,7 +23,8 @@
     "razorpay": "^2.9.6",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "stripe": "^19.2.0"
+    "stripe": "^19.2.0",
+    "twilio": "^5.10.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
