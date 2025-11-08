@@ -71,6 +71,7 @@ export async function POST(req) {
     const brandName = formData.get("brandName");
     const modelName = formData.get("modelName");
     const material = formData.get("material");
+    const color = formData.get("color");
 
     // Handle multiple file uploads
     const files = formData.getAll("images");
@@ -109,9 +110,10 @@ export async function POST(req) {
       frequency,
       brandName,
       modelName,
+      modelName,
       material,
+      color,
     });
-
     return NextResponse.json(
       { message: "Product created successfully", product: newProduct },
       { status: 201 }

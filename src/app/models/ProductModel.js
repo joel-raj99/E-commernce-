@@ -24,6 +24,7 @@ const productSchema = new mongoose.Schema(
     brandName: String,
     modelName: String,
     material: String,
+    color: String,
   },
   { timestamps: true }
 );
