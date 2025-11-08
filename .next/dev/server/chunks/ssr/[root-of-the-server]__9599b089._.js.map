@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/project/E-commernce-/src/app/page.js"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <div className=\"flex min-h-screen flex-col items-center justify-center py-2\">\r\n        Welcome to e-commerce platform!\r\n        <div className=\"mt-10\">\r\n            <a href=\"/products\" className=\"text-blue-500 underline\">\r\n                Browse Products\r\n            </a>\r\n        </div>\r\n    </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;YAA8D;0BAEzE,8OAAC;gBAAI,WAAU;0BACX,cAAA,8OAAC;oBAAE,MAAK;oBAAY,WAAU;8BAA0B;;;;;;;;;;;;;;;;;AAMpE","debugId":null}}]
+}
