@@ -11,7 +11,7 @@ export async function POST(req) {
     });
 
     const options = {
-      amount: amount * 100, // amount in paise
+      amount: amount * 1, // amount in paise
       currency: currency || "INR",
       receipt: receipt || "receipt_order_123",
     };

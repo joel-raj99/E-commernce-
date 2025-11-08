@@ -58,7 +58,7 @@ export async function POST(req) {
     // ✅ Razorpay Online Payment
     if (paymentMethod === "Online") {
       const options = {
-        amount: totalAmount * 100, // amount in paise
+        amount: totalAmount * 1, // amount in paise
         currency: "INR",
         receipt: `receipt_${Date.now()}`,
         notes: {
