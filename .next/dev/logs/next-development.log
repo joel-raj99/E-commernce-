@@ -1,8 +1,7 @@
-[00:00:02.072] Server  LOG      ✓ Ready in 1345ms
-[00:00:05.166] Server  LOG      ○ Compiling / ...
-[00:00:09.415] Server  LOG     MongoDB connected
-[00:00:09.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.765] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:05.014] Server  LOG      ✓ Ready in 3.9s
+[00:08:29.615] Server  LOG      ○ Compiling / ...
+[00:08:31.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:31.810] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -36,7 +35,2403 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:16:13.329] Server  ERROR   Order GET error: MissingSchemaError: Schema hasn't been registered for model "User".
+[00:09:27.629] Server  LOG      ✓ Compiled in 136ms
+[00:09:29.201] Server  LOG      ✓ Compiled in 102ms
+[00:09:30.741] Server  LOG      ✓ Compiled in 157ms
+[00:09:35.199] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.203] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.211] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.215] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.227] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.238] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.246] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.256] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.259] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.270] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.283] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.292] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.356] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.368] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.415] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.417] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.428] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.430] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.432] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.436] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.445] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.447] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.449] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.457] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.461] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.462] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.466] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.472] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.477] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.478] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.481] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.484] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.504] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.511] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.512] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:36.525] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:37.877] Browser ERROR   ./src/app/layout.js:15:9
+Parsing ecmascript source code failed
+  13 |       <body>
+  14 |         <
+> 15 |         {children}
+     |         ^
+  16 |       </body>
+  17 |     </html>
+  18 |   );
+
+Expected '</', got '{'
+[00:09:37.878] Browser ERROR   ./src/app/layout.js:15:10
+Parsing ecmascript source code failed
+  13 |       <body>
+  14 |         <Sib
+> 15 |         {children}
+     |          ^^^^^^^^
+  16 |       </body>
+  17 |     </html>
+  18 |   );
+
+Expected '</', got 'children'
+[00:09:37.878] Browser ERROR   ./src/app/layout.js:15:10
+Parsing ecmascript source code failed
+  13 |       <body>
+  14 |         <Sidebar
+> 15 |         {children}
+     |          ^^^^^^^^
+  16 |       </body>
+  17 |     </html>
+  18 |   );
+
+Expected '</', got 'children'
+[00:09:37.878] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata = {
+  7 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:37.878] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:37.878] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:37.934] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:41.209] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:41.591] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.657] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.658] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.658] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.658] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:41.691] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:42.064] Browser ERROR   uncaughtError: Error: ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:42.720] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:42.720] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:42.720] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/components/Sidebar";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:42.720] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/components/Sidebar'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/components/Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/components/Sidebar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:53.430] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.444] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.451] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.463] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:54.198] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.199] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:57.278] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.368] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.476] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.561] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.723] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:58.724] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:59.539] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/components/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/components/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/components/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:59.544] Server  ERROR    ⨯ ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/components/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/components/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/components/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:59.546] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:59.548] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:59.729] Browser ERROR   ./src/app/layout.js:4:1
+Module not found: Can't resolve '@/app/components/'
+  2 | import "./globals.css";
+  3 | import PropTypes from "prop-types";
+> 4 | import Sidebar from "@/app/components/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Navbar from "@/components/Navbar";
+  6 |
+  7 | export const metadata = {
+
+Import map: aliased to relative './src/app/components/' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:59.729] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/components/Navbar'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/";
+> 5 | import Navbar from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:05.496] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/Sidebar";
+> 5 | import Navbar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:05.497] Server  ERROR    ⨯ ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/Sidebar";
+> 5 | import Navbar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:05.721] Browser ERROR   ./src/app/layout.js:5:1
+Module not found: Can't resolve '@/'
+  3 | import PropTypes from "prop-types";
+  4 | import Sidebar from "@/app/components/Sidebar";
+> 5 | import Navbar from "@/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata = {
+  8 |   title: "e-commerce",
+
+Import map: aliased to relative './src/' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:07.973] Server  LOG      ✓ Compiled in 683ms
+[00:10:10.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:11.716] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:10:36.235] Server  ERROR    ⨯ ReferenceError: Sidebar is not defined
+[00:10:37.898] Browser ERROR   uncaughtError: ReferenceError: Sidebar is not defined
+[00:10:42.265] Server  LOG      ✓ Compiled in 414ms
+[00:10:44.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:44.833] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:10:52.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:52.851] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:16:09.747] Server  LOG      ✓ Compiled in 282ms
+[00:17:24.063] Server  LOG      ✓ Compiled in 475ms
+[00:17:27.527] Server  LOG      ✓ Compiled in 167ms
+[00:17:29.396] Server  LOG      ✓ Compiled in 515ms
+[00:17:31.219] Server  LOG      ✓ Compiled in 132ms
+[00:17:51.122] Server  LOG      ✓ Compiled in 707ms
+[00:17:54.803] Server  LOG      ✓ Compiled in 161ms
+[00:25:38.410] Server  LOG      ✓ Compiled in 1552ms
+[00:25:39.808] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:25:39.808] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:25:55.642] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:10
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:25:55.642] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:21
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:25:59.297] Server  LOG      ✓ Compiled in 1177ms
+[00:26:01.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:01.454] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:26:02.900] Browser ERROR   {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:5000/api/orders","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:4040:25)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:4798:49)\n    at async OrderTable[useEffect() > fetchOrders] (http://localhost:3001/_next/static/chunks/src_app_admin-dashboard_order_page_jsx_8df8d8d4._.js:52:41)"}
+[00:26:14.430] Server  LOG      ✓ Compiled in 211ms
+[00:26:17.825] Server  LOG      ✓ Compiled in 490ms
+[00:26:19.097] Server  LOG      ✓ Compiled in 229ms
+[00:26:30.092] Server  LOG      ✓ Compiled in 641ms
+[00:26:36.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:36.355] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[00:26:38.947] Server  LOG     MongoDB connected
+[00:26:39.208] Server  ERROR   Order GET error: MissingSchemaError: Schema hasn't been registered for model "User".
 Use mongoose.model(name, schema)
-[00:16:22.052] Server  ERROR   Order GET error: MissingSchemaError: Schema hasn't been registered for model "User".
+[00:26:39.322] Browser ERROR   {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3001/api/order","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3479:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3994:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:4798:49)\n    at async OrderTable[useEffect() > fetchOrders] (http://localhost:3001/_next/static/chunks/src_app_admin-dashboard_order_page_jsx_8df8d8d4._.js:52:41)","status":500}
+[00:27:16.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:17.257] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[00:27:18.569] Server  ERROR   Order GET error: MissingSchemaError: Schema hasn't been registered for model "User".
 Use mongoose.model(name, schema)
+[00:27:18.698] Browser ERROR   {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3001/api/order","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3479:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3994:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:4798:49)\n    at async OrderTable[useEffect() > fetchOrders] (http://localhost:3001/_next/static/chunks/src_app_admin-dashboard_order_page_jsx_8df8d8d4._.js:52:41)","status":500}
+[00:27:46.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:47.089] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:27:48.274] Browser ERROR   uncaughtError: TypeError: orders.map is not a function
+[00:28:02.122] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:02.443] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[00:28:03.951] Browser ERROR   uncaughtError: TypeError: orders.map is not a function
+[00:31:02.267] Server  LOG      ✓ Compiled in 1101ms
+[00:31:02.730] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:02.730] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:13.001] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:13.001] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:27.727] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:10
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:27.727] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:21
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:32.080] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:10
+Ecmascript file had an error
+  1 | ""
+> 2 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:32.080] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:21
+Ecmascript file had an error
+  1 | ""
+> 2 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:31:32.195] Server  LOG      ✓ Compiled in 713ms
+[00:31:33.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:34.147] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:31:38.605] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {_id, username, email}). If you meant to render a collection of children, use an array instead.
+[00:31:57.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:57.363] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:31:58.269] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {_id, username, email}). If you meant to render a collection of children, use an array instead.
+[00:34:08.734] Server  LOG      ✓ Compiled in 548ms
+[00:34:09.805] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:09.805] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:18.717] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:18.717] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:20.709] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:20.709] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  2 | import axios from "axios";
+  3 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  4 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:31.735] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:10
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:31.735] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:21
+Ecmascript file had an error
+  1 |
+> 2 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:35.724] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:10
+Ecmascript file had an error
+  1 | ""
+> 2 | import { useEffect, useState } from "react";
+    |          ^^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:35.724] Browser ERROR   ./src/app/admin-dashboard/order/page.jsx:2:21
+Ecmascript file had an error
+  1 | ""
+> 2 | import { useEffect, useState } from "react";
+    |                     ^^^^^^^^
+  3 | import axios from "axios";
+  4 | import { CheckCircle, Clock, CreditCard } from "lucide-react";
+  5 | import { toast } from "react-toastify";
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:34:36.764] Server  LOG      ✓ Compiled in 875ms
+[00:34:39.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:39.806] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     data-new-gr-c-s-check-loaded="14.1261.0"
+-                                     data-gr-ext-installed=""
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[00:36:08.716] Server  LOG      ✓ Compiled in 389ms
+[00:36:13.930] Server  LOG      ✓ Compiled in 304ms
+[00:36:16.486] Server  LOG      ✓ Compiled in 599ms
+[00:36:20.022] Server  LOG      ✓ Compiled in 374ms
+[00:36:22.189] Server  LOG      ✓ Compiled in 249ms
+[00:36:48.361] Server  LOG      ✓ Compiled in 751ms
+[00:36:52.354] Server  LOG      ✓ Compiled in 259ms
+[00:36:54.827] Server  LOG      ✓ Compiled in 289ms
+[00:43:14.238] Server  LOG      ✓ Compiled in 1142ms
+[00:43:15.289] Server  LOG      ✓ Compiled in 578ms
+[00:43:16.696] Server  LOG      ✓ Compiled in 551ms
+[00:43:37.547] Server  LOG      ✓ Compiled in 906ms
+[00:44:03.132] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:03.378] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[00:44:14.800] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:15.011] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:46:56.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:57.019] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:58:45.149] Server  LOG      ✓ Compiled in 1191ms
+[00:58:53.615] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"status\":\"Completed\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3001/api/order/690f1a3c3c68cbd6e0b64ce4","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 405","name":"AxiosError","stack":"AxiosError: Request failed with status code 405\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3479:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:3994:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_6c09d0eb._.js:4798:49)\n    at async handleStatusChange (http://localhost:3001/_next/static/chunks/src_app_admin-dashboard_order_page_jsx_8df8d8d4._.js?id=%255Bproject%255D%252Fsrc%252Fapp%252Fadmin-dashboard%252Forder%252Fpage.jsx+%255Bapp-client%255D+%2528ecmascript%2529:56:13)","status":405}
+[00:59:06.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:07.344] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[00:59:12.002] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"status\":\"Completed\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3001/api/order/690f1a3c3c68cbd6e0b64ce4","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 405","name":"AxiosError","stack":"AxiosError: Request failed with status code 405\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_b43c7089._.js:3479:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_b43c7089._.js:3994:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_b43c7089._.js:4798:49)\n    at async handleStatusChange (http://localhost:3001/_next/static/chunks/src_app_admin-dashboard_order_page_jsx_8df8d8d4._.js:57:13)","status":405}
+[01:04:11.142] Server  LOG      ✓ Compiled in 230ms
+[01:04:17.924] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:18.352] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[01:04:39.486] Server  LOG      ✓ Compiled in 311ms
+[01:04:45.951] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:46.316] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[01:06:24.937] Server  LOG      ✓ Compiled in 285ms
+[01:06:25.841] Server  LOG      ✓ Compiled in 182ms
+[01:06:33.889] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:34.175] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+
+[01:14:55.634] Server  LOG      ✓ Compiled in 300ms
+[01:15:02.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:02.795] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+                          >
+                  ...
+
+[01:15:50.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:50.872] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin-das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           className="flex min-h-screen bg-gray-100 text-gray-900"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <SegmentViewNode type="layout" pagePath="admin-dash...">
+                                <SegmentTrieNode>
+                                <script>
+                                <script>
+                                <script>
+                                <RootLayout>
+                                  <html lang="en">
+                                    <body
+                                      className="flex min-h-screen bg-gray-100 text-gray-900"
+-                                     cz-shortcut-listen="true"
+                                    >
+                  ...
+

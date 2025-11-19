@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/project/E-commernce-/src/app/admin-dashboard/order/page.jsx"],"sourcesContent":["export default function Order() {\r\n  return <div>Order Page</div>;\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}}]
+}

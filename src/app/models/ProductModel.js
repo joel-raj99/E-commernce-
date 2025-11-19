@@ -2,14 +2,11 @@ import mongoose from "mongoose";
 
 const productSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
-    price: { type: Number, required: true },
-    description: { type: String, required: true },
-    image: [{ type: String, required: true }],  // ✅ Array of image URLs — fine
-    category: { type: String, required: true },
-    quantity: { type: Number, default: 0, min: 0 }, // ✅ Inventory control
-
-    // Optional specs — all fine as they are
+    name: String,
+    price: Number,
+    description: String,
+    category: String,
+    quantity: Number,
     power: String,
     usage: String,
     numberOfSpeeds: Number,
@@ -25,11 +22,15 @@ const productSchema = new mongoose.Schema(
     modelName: String,
     material: String,
     color: String,
+    images: [
+      {
+        data: String, // Base64 encoded
+        contentType: String,
+      },
+    ],
   },
   { timestamps: true }
 );
 
-const Product =
-  mongoose.models.Product || mongoose.model("Product", productSchema);
-
-export default Product;
+export default mongoose.models.Product ||
+  mongoose.model("Product", productSchema);

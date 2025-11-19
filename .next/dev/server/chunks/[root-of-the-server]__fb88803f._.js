@@ -76,102 +76,42 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/mongoose [external] (mongoose, cjs)");
 ;
-const ProductSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    },
-    description: {
-        type: String,
-        required: true
-    },
-    image: {
-        type: String,
-        required: true
-    },
-    category: {
-        type: String,
-        required: true
-    },
-    quantity: {
-        type: Number,
-        default: 0,
-        required: true,
-        min: 0
-    },
-    // 🔧 Additional fields from your data
-    power: {
-        type: String,
-        required: true
-    },
-    usage: {
-        type: String,
-        required: true
-    },
-    numberOfSpeeds: {
-        type: Number,
-        required: true
-    },
-    isiCertified: {
-        type: Boolean,
-        default: false
-    },
-    warranty: {
-        type: String,
-        required: true
-    },
-    uses: {
-        type: String,
-        required: true
-    },
-    bodyMaterial: {
-        type: String,
-        required: true
-    },
-    numberOfBlades: {
-        type: Number,
-        required: true
-    },
-    countryOfOrigin: {
-        type: String,
-        required: true
-    },
-    voltage: {
-        type: String,
-        required: true
-    },
-    frequency: {
-        type: String,
-        required: true
-    },
-    brandName: {
-        type: String,
-        required: true
-    },
-    modelName: {
-        type: String,
-        required: true
-    },
-    material: {
-        type: String,
-        required: true
-    }
+const productSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].Schema({
+    name: String,
+    price: Number,
+    description: String,
+    category: String,
+    quantity: Number,
+    power: String,
+    usage: String,
+    numberOfSpeeds: Number,
+    isiCertified: Boolean,
+    warranty: String,
+    uses: String,
+    bodyMaterial: String,
+    numberOfBlades: Number,
+    countryOfOrigin: String,
+    voltage: String,
+    frequency: String,
+    brandName: String,
+    modelName: String,
+    material: String,
+    color: String,
+    images: [
+        {
+            data: String,
+            contentType: String
+        }
+    ]
 }, {
     timestamps: true
 });
-const Product = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Product || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Product", ProductSchema);
-const __TURBOPACK__default__export__ = Product;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Product || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Product", productSchema);
 }),
 "[project]/src/app/api/product/route.js [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
-    "GET",
-    ()=>GET,
     "POST",
     ()=>POST
 ]);
@@ -183,34 +123,83 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$models$2f$Prod
 ;
 async function POST(req) {
     try {
-        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$db$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["connectDB"])();
-        const body = await req.json();
-        const newProduct = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$models$2f$ProductModel$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].create(body);
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$db$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])();
+        // ✅ Get Form Data (Next.js built-in)
+        const formData = await req.formData();
+        // Extract all fields
+        const name = formData.get("name");
+        const price = Number(formData.get("price"));
+        const description = formData.get("description");
+        const category = formData.get("category");
+        const quantity = Number(formData.get("quantity"));
+        const power = formData.get("power");
+        const usage = formData.get("usage");
+        const numberOfSpeeds = Number(formData.get("numberOfSpeeds"));
+        const isiCertified = formData.get("isiCertified") === "true";
+        const warranty = formData.get("warranty");
+        const uses = formData.get("uses");
+        const bodyMaterial = formData.get("bodyMaterial");
+        const numberOfBlades = Number(formData.get("numberOfBlades"));
+        const countryOfOrigin = formData.get("countryOfOrigin");
+        const voltage = formData.get("voltage");
+        const frequency = formData.get("frequency");
+        const brandName = formData.get("brandName");
+        const modelName = formData.get("modelName");
+        const material = formData.get("material");
+        const color = formData.get("color");
+        // ✅ Handle multiple images
+        const files = formData.getAll("images");
+        const images = [];
+        for (const file of files){
+            if (!file) continue;
+            const buffer = Buffer.from(await file.arrayBuffer());
+            images.push({
+                data: buffer.toString("base64"),
+                contentType: file.type
+            });
+        }
+        // Check if no images were uploaded
+        if (images.length === 0) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                error: "No images uploaded"
+            }, {
+                status: 400
+            });
+        }
+        // ✅ Create new product
+        const product = new __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$models$2f$ProductModel$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"]({
+            name,
+            price,
+            description,
+            category,
+            quantity,
+            power,
+            usage,
+            numberOfSpeeds,
+            isiCertified,
+            warranty,
+            uses,
+            bodyMaterial,
+            numberOfBlades,
+            countryOfOrigin,
+            voltage,
+            frequency,
+            brandName,
+            modelName,
+            material,
+            color,
+            images
+        });
+        await product.save();
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            message: "Product created successfully",
-            product: newProduct
-        }, {
-            status: 201
+            success: true,
+            message: "Product added successfully",
+            product
         });
     } catch (error) {
+        console.error("Error adding product:", error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            message: "Error creating product",
-            error: error.message
-        }, {
-            status: 500
-        });
-    }
-}
-async function GET() {
-    try {
-        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$db$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["connectDB"])();
-        const products = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$models$2f$ProductModel$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].find({});
-        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(products, {
-            status: 200
-        });
-    } catch (error) {
-        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            message: "Error fetching products",
+            success: false,
             error: error.message
         }, {
             status: 500

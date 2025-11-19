@@ -1,8 +1,9 @@
 {
-  "/api/auth/profile/route": "app/api/auth/profile/route.js",
-  "/api/cart/[userId]/route": "app/api/cart/[userId]/route.js",
+  "/admin-dashboard/Product/page": "app/admin-dashboard/Product/page.js",
+  "/admin-dashboard/order/page": "app/admin-dashboard/order/page.js",
+  "/admin-dashboard/page": "app/admin-dashboard/page.js",
   "/api/cart/route": "app/api/cart/route.js",
+  "/api/order/[Id]/route": "app/api/order/[Id]/route.js",
   "/api/order/route": "app/api/order/route.js",
-  "/api/product/route": "app/api/product/route.js",
   "/page": "app/page.js"
 }

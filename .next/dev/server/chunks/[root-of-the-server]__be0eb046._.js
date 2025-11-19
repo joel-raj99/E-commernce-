@@ -70,6 +70,7 @@ const __TURBOPACK__default__export__ = connectDB;
 "[project]/src/app/models/orderModel.js [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// models/orderModel.js
 __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
@@ -86,40 +87,21 @@ const orderSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongoo
         {
             productId: {
                 type: __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].Schema.Types.ObjectId,
-                ref: "Product",
-                required: true
+                ref: "Product"
             },
-            quantity: {
-                type: Number,
-                required: true
-            },
-            price: {
-                type: Number,
-                required: true
-            }
+            quantity: Number,
+            price: Number
         }
     ],
-    totalAmount: {
-        type: Number,
-        required: true
-    },
-    address: {
-        type: String,
-        required: true
-    },
-    paymentMethod: {
-        type: String,
-        required: true
-    },
-    status: {
-        type: String,
-        default: "Pending"
-    }
+    totalAmount: Number,
+    address: String,
+    paymentMethod: String,
+    status: String,
+    razorpayOrderId: String
 }, {
     timestamps: true
 });
-const Order = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Order || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Order", orderSchema);
-const __TURBOPACK__default__export__ = Order;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Order || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Order", orderSchema);
 }),
 "[project]/src/app/api/order/[Id]/route.js [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

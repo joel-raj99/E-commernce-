@@ -16,6 +16,7 @@
     "crypto": "^1.0.1",
     "dotenv": "^17.2.3",
     "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.553.0",
     "mongoose": "^8.19.2",
     "next": "16.0.1",
     "nodemailer": "^7.0.10",
@@ -23,6 +24,7 @@
     "razorpay": "^2.9.6",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "react-toastify": "^11.0.5",
     "stripe": "^19.2.0",
     "twilio": "^5.10.4"
   },

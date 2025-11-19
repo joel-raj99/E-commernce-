@@ -146,34 +146,11 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/mongoose [external] (mongoose, cjs)");
 ;
 const productSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    },
-    description: {
-        type: String,
-        required: true
-    },
-    image: [
-        {
-            type: String,
-            required: true
-        }
-    ],
-    category: {
-        type: String,
-        required: true
-    },
-    quantity: {
-        type: Number,
-        default: 0,
-        min: 0
-    },
-    // Optional specs — all fine as they are
+    name: String,
+    price: Number,
+    description: String,
+    category: String,
+    quantity: Number,
     power: String,
     usage: String,
     numberOfSpeeds: Number,
@@ -188,12 +165,17 @@ const productSchema = new __TURBOPACK__imported__module__$5b$externals$5d2f$mong
     brandName: String,
     modelName: String,
     material: String,
-    color: String
+    color: String,
+    images: [
+        {
+            data: String,
+            contentType: String
+        }
+    ]
 }, {
     timestamps: true
 });
-const Product = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Product || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Product", productSchema);
-const __TURBOPACK__default__export__ = Product;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].models.Product || __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].model("Product", productSchema);
 }),
 "[project]/src/app/api/cart/route.js [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
